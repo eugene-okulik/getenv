@@ -17,6 +17,7 @@ jobs:
   run-getenv:
     name: Run tests
     runs-on: ubuntu-latest
+    environment: run-getenv
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
