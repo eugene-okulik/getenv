@@ -12,6 +12,8 @@ on:
           - smoke
           - regression
           - extended
+env:
+  env_var: run-getenv
 
 jobs:
   run-getenv:
